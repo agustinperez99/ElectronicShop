@@ -5,7 +5,10 @@
   "projects": {
     "ecommerce-app": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "inlineTemplate": true,
+        "skipTests": true
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -79,6 +82,8 @@
             ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
+              "src/assets",
+              "src/favicon.ico",
               {
                 "glob": "**/*",
                 "input": "public"
@@ -92,5 +97,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

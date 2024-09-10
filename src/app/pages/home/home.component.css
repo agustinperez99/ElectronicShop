@@ -1,0 +1,70 @@
+/* Estilo para el contenedor de los productos */
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Espacio entre los productos */
+  justify-content: center; /* Centra los productos en el contenedor */
+  margin-top: 20px;
+}
+
+/* Estilo para cada producto */
+.product-card {
+  border: 1px solid #ddd; /* Borde gris claro */
+  border-radius: 8px; /* Bordes redondeados */
+  overflow: hidden; /* Oculta el desbordamiento */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  width: 300px; /* Ancho fijo para las tarjetas */
+  background-color: #fff; /* Fondo blanco */
+  text-align: center; /* Centra el texto */
+}
+
+/* Estilo para la imagen del producto */
+.product-image {
+  width: auto; /*La imagen se ajusta */
+  height: 200px; /* Altura fija para la imagen */
+  object-fit: cover; /* Ajusta la imagen para que cubra el área */
+}
+
+/* Estilo para el contenido del producto */
+.product-content {
+  padding: 15px; /* Espacio interior */
+}
+
+/* Estilo para el nombre del producto */
+.product-name {
+  font-size: 1.2em; /* Tamaño de fuente mayor */
+  margin: 0; /* Elimina margen */
+  color: #333; /* Color del texto */
+}
+
+/* Estilo para la descripción del producto */
+.product-description {
+  font-size: 0.9em; /* Tamaño de fuente menor */
+  color: #666; /* Color del texto */
+  margin: 10px 0; /* Margen superior e inferior */
+}
+
+/* Estilo para el precio del producto */
+.product-price {
+  font-size: 1.1em; /* Tamaño de fuente ligeramente mayor */
+  color: #e74c3c; /* Color rojo para el precio */
+  margin: 10px 0; /* Margen superior e inferior */
+}
+
+/* Estilo para el enlace de detalles */
+.product-link {
+  display: inline-block; /* Hace que el enlace se comporte como un bloque */
+  margin-top: 10px; /* Margen superior */
+  padding: 10px 20px; /* Espacio interior */
+  background-color: #3498db; /* Fondo azul */
+  color: #fff; /* Texto blanco */
+  text-decoration: none; /* Sin subrayado */
+  border-radius: 5px; /* Bordes redondeados */
+  transition: background-color 0.3s; /* Transición suave para el color de fondo */
+}
+
+.product-link:hover {
+  background-color: #2980b9; /* Color de fondo más oscuro al pasar el mouse */
+}
+
+  
